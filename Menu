@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DR-Menu</title>
+<link href="page.css" rel="stylesheet" type="text/css">
+<style>
+
+	p
+	{color:white;}
+	
+	#menu
+	{width: 75%;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;}
+		
+	a:link
+		{text-decoration:none;
+		color: white}
+	a:hover
+		{color: blue;}
+	a:visited
+		{color: white;}
+</style>
+</head>
+
+<body>
+<img id="logo" src="Images/DR_Logo_2.png" alt="DR Logo">
+	<nav>
+		<ul>
+			<li> <a href= "home.html">Home</a></li>
+			<li> <a href = "Menu.html">Menu</a></li>
+			<li> <a href = "Music.html">Music & Community</a></li>
+			<li> <a href = "About.html">About Us</a></li>
+			<li> <a href = "Brew.html">Micro Brew</a></li>
+		</ul>
+	</nav>
+    <div id = "menu">
+    	<h1 style="text-align:center;">Menu</h1>
+            <p style="font-size: 2em; color: white; top:330px; ">All dishes will be served with two sides!</p>
+			<h3>Chicken Dinners</h3>
+                	<p>2 piece chicken dinner mixed dark and white meat/fried, spicy, barbecue- $ 5.69
+                    <br/>
+                    3 piece chicken dinner mixed dark and white meat/fried, spicy, barbecue- $ 6.35
+                    <br/>
+                    4 piece chicken dinner mixed dark and white meat/fried, spicy, barbecue- $6.00
+                    </p>
+             <h3>Shrimp & Fish Dinners</h3>
+            		 <p>Shrimp regular order- $ 5.75 &nbsp; &nbsp;
+                     Shrimp large order- $ 7.75 &nbsp; &nbsp;<br/><br/>
+                     Fish/Mullet & Cat Fish- $ 8.99 &nbsp; &nbsp;
+                     2 piece Mullet- $ 7.99 &nbsp; &nbsp;<br/><br/>
+                     2 piece Cat Fish- $ 7.99</p>
+                     <fieldset>
+             <h3>Sides</h3>
+             		<p>Small- $ 1.50 &nbsp; &nbsp; Medium- $ 1.75 &nbsp; &nbsp;Large $ 2.50 <br/><br/>
+                    Collard Greens &nbsp; &nbsp; Turnip Greens &nbsp; &nbsp; Spinach &nbsp; &nbsp; Green Beans<br/><br/>
+                    Corn/Whole or on the cob &nbsp; &nbsp; Okra/Fried &nbsp; &nbsp; Black Eye Peas &nbsp; &nbsp; Potato Salad<br/><br/>
+                    Sweet Potatoes &nbsp; &nbsp; Mashed Potatoes &nbsp; &nbsp; Fried Green Tomatoes</p></fieldset>
+             <h3>Your Choice of Bread</h3>
+             		<p>Homemade Bread- (6) $ 3.00.....(12) $ 6.00<br/><br/>
+					Homemade Cornbread- (1) pan $ 1.75.....(2) pan- $ 2.50<br/><br/>
+					Hush Puppies- (1) Dozen $ 4.50</p>
+			 <h3>Beverages</h3>
+             		<a href="Brew.html" class="taps">A large variety of beers on tap -- click here</a><br/>
+					<p style="color:white">Coca-Cola Products- 2 liter: $ 1.50 &nbsp; &nbsp; &nbsp; Can: $ .65<br/><br/>
+		Sweet Tea- 1/2 Gallon: $ 2.75 &nbsp; &nbsp; &nbsp; 1 Gallon: $ 3.50</p>
+             <h3>Deserts</h3>
+   		<p>Slice $ 3.50 &nbsp; &nbsp; &nbsp; Whole cakes or Pies STARTING @ $ 4.50<br/><br/> 
+        Coconut Cake &nbsp; &nbsp; Butter Pecan &nbsp; &nbsp; Pound cake &nbsp; &nbsp; Red Velvet cake &nbsp; &nbsp;Peach Cobbler<br/><br/>
+		Chocolate cake &nbsp; &nbsp; Peach Short cake &nbsp; &nbsp; Strawberry Shortcake &nbsp; &nbsp; Lady Baltimore cake<br/><br/>
+		Apple Pie &nbsp; &nbsp; Jefferson Davis Pie &nbsp; &nbsp; Pecan Pie &nbsp; &nbsp; Key Lime Pie &nbsp; &nbsp;Sweet Potato Pie<br/><br/>
+		Peanut Pie &nbsp; &nbsp; Banana & Bread Pudding</p>
+        <h3>Kid's Menu</h3>
+        <p style="padding-bottom: 50px;"> Kids Under 12 Years of Age:
+        $ 4.00<br/><br/>
+		Choice of Chicken Fried or Barbecued served with (1) Side and drink</p>
+	</div>
+    <footer>
+	Peggy Smith and Michael Brown<br/>
+	123 Lodo Drive, Atlanta, GA 30301<br/>
+	lodo@downtownrestaurant.com
+    </footer>
+</body>
+</html>
