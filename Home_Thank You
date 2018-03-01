@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home.html</title>
+<link href="page.css" rel="stylesheet" type="text/css">
+<style>
+	#home
+		{width: 75%;
+		margin:auto;}
+		
+	.homeContent
+		{ color: white;
+		font-size:2em;}
+	#homeimg
+		{padding-right: 300px;
+		vertical-align:top;
+		margin-bottom: 50px;}
+	.slideshow 
+		{max-width:500px;
+  		position: relative;
+  		margin: auto;
+		padding-left: 50px;}
+	.slideshow .slide
+		{position: absolute;}
+	form
+		{padding-top: 25px;
+		text-align:center;
+		padding-bottom: 50px;}
+	
+		
+		.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+	left: 0pt;
+	left: 0%;
+	left: 625px;
+	left: 0px;
+	left: 0px;
+	left: 0px;
+	left: 0px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+</head>
+
+<body>
+<img id="logo" src="Images/DR_Logo_2.png" alt="DR Logo">
+	<nav>
+		<ul>
+			<li> <a href= "Home.html">Home</a></li>
+			<li> <a href = "Menu.html">Menu</a></li>
+			<li> <a href = "Music.html">Music & Community</a></li>
+			<li> <a href = "About.html">About Us</a></li>
+			<li> <a href = "Brew.html">Micro Brew</a></li>
+		</ul>
+	</nav>
+    <div id = "home">
+    	<h1 style="color:black; font-size:4em; text-align:center; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;">Downtown Restaurant</h1>
+    	<h2 style="text-align:center; color: white; font-size: 2.25em; line-height:none;"> Thank you for reserving your spot to dine with us!</h2>
+    	<!--<p class = "homeContent">
+        <img id = "homeimg" src="Images/homepage dr.jpg" alt="frontDoor" width="300"/>
+        asdiuhnarhf0</p>-->
+     <div class="slideshow">
+    	<div class="slide fade">
+        	<img src="Images/slide_beer.jpg" alt="Beer" style="width: 100%;"/>
+        </div>
+        
+        <div class="slide fade">
+        	<img src="Images/slide_Dessert.jpg" alt="pie" style="width: 100%;"/>
+        </div>
+        
+        <div class="slide fade">
+        	<img src="Images/slide_Fish.jpg" alt="Grilled Fish" style="width: 100%;"/>
+        </div>
+        
+        <div class="slide fade">
+        	<img src="Images/slide_food.jpg" alt="grilled chicken" style="width: 100%;"/>
+        </div>
+        
+        <div class="slide fade">
+        	<img src="Images/slide_soulFood.jpg" alt="side dishes" style="width: 100%;"/>
+        </div>
+         
+        <div class="slide fade">
+        	<img src="Images/slide_southern.jpg" alt="rolls" style="width: 100%;"/>
+        </div>
+    </div>
+    <script src="slideshow.js"></script>
+    	        <p style="padding-left: 50px; padding-top: 400px; width:600px; margin:auto;">Walk in and feel the magic of the south. At Peggy & Michaels Downtown Restaurant you can feel the southern pride in every bite of our home cooked, fire broiled meats and our home made tap brews. Everything at Downtown Restaurant is hand made and served with a smile on our face because at DR our customers are what are important. We strive to provide the best service paired with the most authentic southern feel possible. </p>
+  		<br/>
+        <br/>
+        
+    </div>
+    <footer>
+	Peggy Smith and Michael Brown<br/>
+	123 Lodo Drive, Atlanta, GA 30301<br/>
+	lodo@downtownrestaurant.com
+    </footer>
+</body>
+</html>
