@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+nav
+	{text-align:center;}
+nav ul li a
+	{margin-left: 40px;
+	text-decoration:none;}
+nav ul li
+	{display: inline;}
+nav ul li a:link
+	{font-family: 'Microsoft PhagsPa';
+	color: blue;
+	font-size: 20.83px;
+	font-weight: 400;}
+nav ul li a:hover
+	{background-color: white;
+	color: blue;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;}
+nav ul li a:visited
+	{color: blue;}
+body
+	{background-image: url(Images/music%20page%20background.jpg);}
+p
+	{color: white;}
+.dr
+	{margin-bottom: 2px;}
+h1
+	{color: black;
+	font-size: 3.5em;}
+.dr
+	{font-size: 5em; 
+	margin-top: 10px; 
+	text-align: center; 
+	font-family: Arial;
+	color:White;}
+ul li
+	{color: black;
+	list-style: none;
+	text-align:center;}
+footer
+	{background-color: black;
+	color: white;
+	font-size:0.75em;
+	text-align:center;
+	margin:auto;}
+
+#logo
+{max-width: 350px;
+margin:auto;
+display:block;}
+
+h1
+{color:white;}
+
+h2
+{color:white;}
+
+h3
+{color:white;}
