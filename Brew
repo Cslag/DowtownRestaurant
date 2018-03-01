@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DR- In-House Brews</title>
+<link href="page.css" rel="stylesheet" type="text/css">
+<style>
+	#brew
+	{height: 750px;
+	margin:auto;}
+	
+	.beers
+	{list-style: none;
+	color: white;
+	padding-left:50px;
+	padding-right: 50px;
+	font-size: 1.75em;
+	float: right;
+	line-height:75px;}
+	
+	.prices
+	{list-style: none;
+	color: white;
+	font-size: 1.75em;
+	line-height: 50px;
+	padding-left:400px;
+	text-align:center;}
+
+	#beer
+	{width: 25%;
+	position: absolute;
+	left: 100px;
+	top: 450px;}
+</style>
+</head>
+<body>
+<img id="logo" src="Images/DR_Logo_2.png" alt="DR Logo">
+	<nav>
+		<ul>
+			<li> <a href= "home.html">Home</a></li>
+			<li> <a href = "Menu.html">Menu</a></li>
+			<li> <a href = "Music.html">Music & Community</a></li>
+			<li> <a href = "About.html">About Us</a></li>
+			<li> <a href = "Brew.html">Micro Brew</a></li>
+		</ul>
+	</nav>
+    <div id = "brew">
+    	<h1 style="text-align:center; font-size: 3.5em; text-decoration:underline; padding: 15px; margin: 10px;">In House Brews Made Fresh Everyday</h1>
+        	<ul class="beers">
+            	<li style="text-decoration:underline; font-size: 3em;"> Brews</li>
+            	<li> Sake's Alive IPA</li>
+                <li> Hop Squash Ale</li>
+                <li> Peachy Keen Amber Ale</li>
+                <li> Monkey Slide Porter</li>
+                <li> 18 & Counting Pale Ale</li>
+                <li> Barnyard Groove Blondie</li>
+             </ul> 
+         	<ul class="prices">
+            	<li style="text-decoration:underline;">PRICES</li>
+            	<li>$4.00 per pint</li>
+                <li>$7.00 per growler</li>
+            </ul>
+        <img id = "beer" src="Images/tapRoomPix.jpg" alt = "Glass of Beer"/>
+        <br/>
+     </div>
+         <footer>
+	Peggy Smith and Michael Brown<br/>
+	123 Lodo Drive, Atlanta, GA 30301<br/>
+	lodo@downtownrestaurant.com
+    </footer>
+</body>
+</html>
