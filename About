@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DR-Music</title>
+<link href="page.css" rel="stylesheet" type="text/css">
+<style>
+	h4
+	{font-size: 2em;
+	color: black;
+	text-align:center;}
+	
+	h3
+	{color: black;
+	font-size: 2em;
+	text-align:center;}
+	
+	h2
+	{color: black;
+	 text-align:center;}
+	
+	h1
+	{color: black;
+	 text-align:center;}
+	
+	#guitar
+	{width: 50%;
+	padding-top: 25px;
+	padding-left:25%;}
+	
+	#musicians
+		{width: 100%;}
+	#Reg
+		{position: absolute;
+		left: 10%;
+		height: auto;}
+	#Paul
+		{position: absolute;
+		left: 37.5%;}
+	#Lecrae
+		{position:absolute;
+		left: 65%; }
+
+</style>
+</head>
+<body>
+<img id="logo" src="Images/DR_Logo_2.png" alt="DR Logo">
+	<nav>
+		<ul>
+			<li> <a href= "Home.html">Home</a></li>
+			<li> <a href = "Menu.html">Menu</a></li>
+			<li> <a href = "Music.html">Music & Community</a></li>
+			<li> <a href = "About.html">About Us</a></li>
+			<li> <a href = "Brew.html">Micro Brew</a></li>
+		</ul>
+	</nav>
+
+
+<div id="music">
+	<h1 style="text-align:center; font-size: 4em; padding-top: 50px;">Live Music Every Week</h1>
+		<img id = "guitar" src="Images/music_page_pix.jpg" alt="Guitar"/>
+	<p style= "padding-top: 25px; text-align:center; font-size:1.5em;">Here at Peggy & Michael's, we believe that the way to reach a<br/>
+	person's heart is through great food and great music.<br/><br/>
+	We are dedicated to bringing live music for our customers to enjoy</p>
+	<br/>
+	<h3>Upcoming Events</h3>
+
+<div id="musicians">
+	<div id = "Reg">
+		<h4>Reggie Codrington</h4>
+		<img class="reg" src="Images/reggie.jpg" alt="Reggie" width = "275" height="275">
+			<ul>
+				<li>August 5-6, 2016</li>
+				<li>Showtime starts at 6:30pm</li>
+			</ul>
+	</div>
+
+	<div id="Paul">
+		<h4>Paul Brown</h4>
+		<img src="Images/paulbrown.jpg" alt="Paul Brown" width = "275" height="275">
+			<ul>
+				<li>August 12-13, 2016</li>
+				<li>Showtime starts at 6:30pm</li>
+			</ul>
+	</div>
+
+	<div id="Lecrae">
+		<h4>Lecrae</h4>
+		<img class = "Lecrae" src="Images/lecrae.jpg" alt="Lecrae" width = "275" height="275">
+			<ul>
+				<li>August 6-27, 2016</li>
+				<li>Showtime starts at 7 pm</li>
+			</ul>
+	</div>
+</div>
+
+<h2 style="padding-top: 500px;">Community</h2>
+	<p style="text-align:center;">We also like to give back. Without this community, there would be no us.<br/>
+	During our music events, 15% of our sales is given back to the community through:<br/></p>
+		<ul>
+			<li>Parks and Recreation</li>
+			<li>Schools and School Programs</li>
+			<li>Outreach Programs</li>
+			<li>Churches</li>
+		</ul>
+<h3 style="text-align:center; padding-left: 50px; margin:auto;">To Receive More Info On Our Music and Community, Please Sign Up:</h3>
+<form action="http://www.websitedevelopmentbook.com/FormEcho.php" method="post" style="color:white; text-align:center; background-color: black; margin: 25px; width:75%; margin:auto;">
+	<strong style="font-size:2em;">Sign-Up Here!</strong><br/>
+	<fieldset>
+		First Name: <input type="text" name="fName" id="fName" required/><br/><br/>
+		Last Name: <input type="text" name="lName" id="lName" required/><br/><br/>
+		Email Address: <input type="email" name="email" id="email" required/><br/><br/>
+		<input type="submit" value="submit" formaction="Music_ThankYou.html">
+	</fieldset>
+</form>
+</div>
+
+    <footer>
+	Peggy Smith and Michael Brown<br/>
+	123 Lodo Drive, Atlanta, GA 30301<br/>
+	lodo@downtownrestaurant.com
+    </footer>
+
+</body>
+</html>
