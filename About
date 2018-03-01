@@ -1,53 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>DR-Music</title>
+<title>DR-About Us</title>
 <link href="page.css" rel="stylesheet" type="text/css">
 <style>
-	h4
-	{font-size: 2em;
-	color: black;
-	text-align:center;}
+	#about
+	{margin: auto;
+	height: 1500px;}
 	
-	h3
-	{color: black;
-	font-size: 2em;
-	text-align:center;}
+	.aboutContent
+	{margin-top: 50px;
+	padding-bottom: 50px;
+	margin:auto;}
 	
-	h2
-	{color: black;
-	 text-align:center;}
+	#copper
+	{width: 30%;
+	margin-top: 50px;
+	padding-left: 100px;}
 	
-	h1
-	{color: black;
-	 text-align:center;}
+	#flower
+	{width: 30%;
+	max-height:400px;
+	padding-right: 50px;
+	float:right;}
 	
-	#guitar
-	{width: 50%;
-	padding-top: 25px;
-	padding-left:25%;}
+	div a
+	{padding-left:150px;
+	font-size: 2em;}
 	
-	#musicians
-		{width: 100%;}
-	#Reg
-		{position: absolute;
-		left: 10%;
-		height: auto;}
-	#Paul
-		{position: absolute;
-		left: 37.5%;}
-	#Lecrae
-		{position:absolute;
-		left: 65%; }
-
+	div a:link
+	{text-decoration:none;
+	color:black;}
+	
+	div a:hover
+	{font-size: 2.5em;
+	color:blue;}
+	
+	div a:visited
+	{color:black;}
 </style>
 </head>
+
 <body>
 <img id="logo" src="Images/DR_Logo_2.png" alt="DR Logo">
 	<nav>
 		<ul>
-			<li> <a href= "Home.html">Home</a></li>
+			<li> <a href= "home.html">Home</a></li>
 			<li> <a href = "Menu.html">Menu</a></li>
 			<li> <a href = "Music.html">Music & Community</a></li>
 			<li> <a href = "About.html">About Us</a></li>
@@ -55,71 +54,29 @@
 		</ul>
 	</nav>
 
-
-<div id="music">
-	<h1 style="text-align:center; font-size: 4em; padding-top: 50px;">Live Music Every Week</h1>
-		<img id = "guitar" src="Images/music_page_pix.jpg" alt="Guitar"/>
-	<p style= "padding-top: 25px; text-align:center; font-size:1.5em;">Here at Peggy & Michael's, we believe that the way to reach a<br/>
-	person's heart is through great food and great music.<br/><br/>
-	We are dedicated to bringing live music for our customers to enjoy</p>
-	<br/>
-	<h3>Upcoming Events</h3>
-
-<div id="musicians">
-	<div id = "Reg">
-		<h4>Reggie Codrington</h4>
-		<img class="reg" src="Images/reggie.jpg" alt="Reggie" width = "275" height="275">
-			<ul>
-				<li>August 5-6, 2016</li>
-				<li>Showtime starts at 6:30pm</li>
-			</ul>
-	</div>
-
-	<div id="Paul">
-		<h4>Paul Brown</h4>
-		<img src="Images/paulbrown.jpg" alt="Paul Brown" width = "275" height="275">
-			<ul>
-				<li>August 12-13, 2016</li>
-				<li>Showtime starts at 6:30pm</li>
-			</ul>
-	</div>
-
-	<div id="Lecrae">
-		<h4>Lecrae</h4>
-		<img class = "Lecrae" src="Images/lecrae.jpg" alt="Lecrae" width = "275" height="275">
-			<ul>
-				<li>August 6-27, 2016</li>
-				<li>Showtime starts at 7 pm</li>
-			</ul>
-	</div>
-</div>
-
-<h2 style="padding-top: 500px;">Community</h2>
-	<p style="text-align:center;">We also like to give back. Without this community, there would be no us.<br/>
-	During our music events, 15% of our sales is given back to the community through:<br/></p>
-		<ul>
-			<li>Parks and Recreation</li>
-			<li>Schools and School Programs</li>
-			<li>Outreach Programs</li>
-			<li>Churches</li>
-		</ul>
-<h3 style="text-align:center; padding-left: 50px; margin:auto;">To Receive More Info On Our Music and Community, Please Sign Up:</h3>
-<form action="http://www.websitedevelopmentbook.com/FormEcho.php" method="post" style="color:white; text-align:center; background-color: black; margin: 25px; width:75%; margin:auto;">
-	<strong style="font-size:2em;">Sign-Up Here!</strong><br/>
-	<fieldset>
-		First Name: <input type="text" name="fName" id="fName" required/><br/><br/>
-		Last Name: <input type="text" name="lName" id="lName" required/><br/><br/>
-		Email Address: <input type="email" name="email" id="email" required/><br/><br/>
-		<input type="submit" value="submit" formaction="Music_ThankYou.html">
-	</fieldset>
-</form>
-</div>
-
-    <footer>
+ 
+    <div id = "about">
+    	<h2 style="text-align:center; font-size: 2.5em; color: black; padding-top: 40px;"> Get to Know DR</h2>
+    	<p style="width:50%; float: right; padding-right: 50px; line-height: 22px; font-size:1.5em;">&nbsp; &nbsp; &nbsp; What started over 30 years ago as an idea for a downtown restaurant/microbrewery to combine fresh, handcrafted, made-from-scratch beer and southern food. Today it has become a reality at Peggy & Michael’s Downtown Restaurant/Microbrewery across the south as well as in the heart of the Atlanta, Georgia! This now famous idea of serving up excellent beer and awesome southern food became a reality on July 7, 2016, when the first Peggy & Michael’s Downtown Restaurant/Microbrewery opened its doors in Fulton County, Georgia.<br/><br/>
+&nbsp; &nbsp; &nbsp; Obtained later by the famous Dogfish Head, Milton, Delaware Brewing Company in 2015 Peggy & Michael’s Restaurant/Microbrewery currently operates 25 restaurant/microbreweries in the south including not only Georgia, but Texas, Tennessee, Alabama, South Carolina, and Virginia. In addition to the south’s 25 Peggy & Michael’s Downtown Restaurant/Microbreweries 10 will soon operate in Japan. Peggy & Michael’s Restaurant/Microbrewery heritage of supreme beer and delicious southern food along with good old times are now being served fresh each and every day.</p>
+		<img id = "copper" src="Images/aboutPageCopper.jpg" alt = "Brewery Eqiupment"/>
+    	<div style="font-size: 2em; color: white; padding-left: 100px; padding-top: 20px; vertical-align: bottom;">Hours:</div>
+        <p class = "aboutContent" style="padding-left: 100px;">
+        <br/> <br/>
+		•	3-12 pm Summer daze<br/>
+		•	2-10 pm Happy Fall daze<br/>
+		•	2-9 pm Winter daze<br/>
+		•	11-10 pm Spring Green Daze:<br/> (featuring daily specials)</p>
+        <img id = "flower" src="Images/aboutPagePhoto.jpg" alt = "Hops plant"/>
+        <p style="padding-left: 150px; font-size: 1.5em;"> Compare us to our competitors:</p>
+        
+        <a href="http://maxlagers.com/"> Max Lager</a><br/><br/>
+        <a href="http://www.5seasonsbrewing.com/"> 5 Seasons Brewing</a>
+    </div>
+        <footer>
 	Peggy Smith and Michael Brown<br/>
 	123 Lodo Drive, Atlanta, GA 30301<br/>
 	lodo@downtownrestaurant.com
     </footer>
-
 </body>
 </html>
